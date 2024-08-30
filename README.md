@@ -1,1 +1,2 @@
 # Curso_BASE_DATOS
+> Este curso contiene clase y dos proyectos finales realizados por mi autoria y creditos a mi grupo de trabajo :3 asi mismo decirles que segun las carpetas encontraran material didactico pero quizas obsoleto, por el las tecnologias estan en constante actualización pero espero que te sirvan!, si utilizas mi trabajo por favor dejame una estrella minimo asi sabre que siquiera te sirvio :)
