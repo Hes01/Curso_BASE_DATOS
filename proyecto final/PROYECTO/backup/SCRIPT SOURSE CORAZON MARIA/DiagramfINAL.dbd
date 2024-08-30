@@ -1,0 +1,3636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Devart (www.devart.com), the Database Diagram File -->
+<!-- Modifying this generated file will probably render it invalid -->
+<DevartDatabaseDiagram>
+  <SchemaVersion>1.3</SchemaVersion>
+  <DatabaseProvider>aa8afe9c-7d62-4564-b477-c12e62e0f440</DatabaseProvider>
+  <Connection>
+    <ConnectionModel>
+      <PropertyValue Name="Database">aa8afe9c-7d62-4564-b477-c12e62e0f440</PropertyValue>
+      <PropertyValue Name="ConnectionString" xml:space="preserve">Data Source=DESKTOP-R5Q1GFA;Integrated Security=True;User ID=DESKTOP-R5Q1GFA\Usuario</PropertyValue>
+    </ConnectionModel>
+  </Connection>
+  <Settings>
+    <DbDiagramOptions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <EnableComments>false</EnableComments>
+      <TableCompartments>None</TableCompartments>
+      <CustomProperties />
+    </DbDiagramOptions>
+    <Options xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PageOptions">
+      <TopLeftMargins>
+        <Width>39.3700787401575 in/100</Width>
+        <Height>39.3700787401575 in/100</Height>
+      </TopLeftMargins>
+      <BottomRightMargins>
+        <Width>39.3700787401575 in/100</Width>
+        <Height>39.3700787401575 in/100</Height>
+      </BottomRightMargins>
+      <PaperSize>
+        <Width>827 in/100</Width>
+        <Height>1169 in/100</Height>
+      </PaperSize>
+    </Options>
+    <Options xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PrintOptions" />
+    <Options xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ViewOptions">
+      <ShadowOffset>
+        <X>4 px</X>
+        <Y>4 px</Y>
+      </ShadowOffset>
+      <CustomProperties />
+    </Options>
+  </Settings>
+  <VirtualRelations>
+    <RelationCount>0</RelationCount>
+  </VirtualRelations>
+  <Diagram Version="1.30.60.0">
+    <DiagramModel>
+      <Model xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="DDRootModel">
+        <CustomProperties>
+          <OID>0</OID>
+        </CustomProperties>
+        <Children>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>1</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1460 px</X>
+              <Y>710 px</Y>
+            </Location>
+            <Size>
+              <Width>228 px</Width>
+              <Height>127 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Anulacion</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>2</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>2620 px</X>
+              <Y>790 px</Y>
+            </Location>
+            <Size>
+              <Width>184 px</Width>
+              <Height>110 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Articulo</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>3</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>2610 px</X>
+              <Y>1100 px</Y>
+            </Location>
+            <Size>
+              <Width>233 px</Width>
+              <Height>127 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.ArticuloMateriaPrima</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>4</OID>
+              <Comment>5</Comment>
+              <OutModel>3</OutModel>
+              <InModel>2</InModel>
+              <OutPort>6</OutPort>
+              <InPort>7</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>102 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>6</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>92 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>7</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.ArticuloMateriaPrima.FK_ArticuloMateriaPrima_Articulo</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>5</OID>
+              <HolderModel>4</HolderModel>
+              <Port>8</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>0 px</X>
+                  <Y>100 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>8</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>9</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1140 px</X>
+              <Y>1070 px</Y>
+            </Location>
+            <Size>
+              <Width>143 px</Width>
+              <Height>90 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Cargo</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>10</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>645 px</X>
+              <Y>967 px</Y>
+            </Location>
+            <Size>
+              <Width>165 px</Width>
+              <Height>93 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Categoria</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>11</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>3080 px</X>
+              <Y>1080 px</Y>
+            </Location>
+            <Size>
+              <Width>244 px</Width>
+              <Height>90 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.CategoriaMateriaPrima</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>12</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>644 px</X>
+              <Y>781 px</Y>
+            </Location>
+            <Size>
+              <Width>166 px</Width>
+              <Height>93 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Cliente</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>13</OID>
+              <Comment>14</Comment>
+              <OutModel>12</OutModel>
+              <InModel>10</InModel>
+              <OutPort>15</OutPort>
+              <InPort>16</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>83.5 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>15</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>82.5 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>16</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Cliente.FK_Cliente_Categoria</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>14</OID>
+              <HolderModel>13</HolderModel>
+              <Port>17</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>0 px</X>
+                  <Y>-46.5 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>17</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>18</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1110 px</X>
+              <Y>1300 px</Y>
+            </Location>
+            <Size>
+              <Width>218 px</Width>
+              <Height>212 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Comprobante</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>19</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1920 px</X>
+              <Y>970 px</Y>
+            </Location>
+            <Size>
+              <Width>196 px</Width>
+              <Height>212 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Contrato</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>20</OID>
+              <Comment>21</Comment>
+              <OutModel>1</OutModel>
+              <InModel>19</InModel>
+              <OutPort>22</OutPort>
+              <InPort>23</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>63.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>22</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>98 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>23</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>2018 px</X>
+                <Y>773.5 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Anulacion.FK_Anulacion_Contrato</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>21</OID>
+              <HolderModel>20</HolderModel>
+              <Port>24</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>-165 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>24</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>25</OID>
+              <Comment>26</Comment>
+              <OutModel>18</OutModel>
+              <InModel>19</InModel>
+              <OutPort>27</OutPort>
+              <InPort>28</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>212.857165385266 px</X>
+                  <Y>51.4285944432631 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>27</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>98 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>28</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>1348 px</X>
+                <Y>1351.42859444326 px</Y>
+              </PointD>
+              <PointD>
+                <X>1348 px</X>
+                <Y>1280 px</Y>
+              </PointD>
+              <PointD>
+                <X>2018 px</X>
+                <Y>1280 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>true</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Comprobante.FK_Comprobante_Contrato</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>26</OID>
+              <HolderModel>25</HolderModel>
+              <Port>29</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>-355 px</X>
+                  <Y>71.4285944432631 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>29</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>30</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1390 px</X>
+              <Y>1100 px</Y>
+            </Location>
+            <Size>
+              <Width>220 px</Width>
+              <Height>93 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.ContratoEmpleado</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>31</OID>
+              <Comment>32</Comment>
+              <OutModel>30</OutModel>
+              <InModel>19</InModel>
+              <OutPort>33</OutPort>
+              <InPort>34</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>41 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>33</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>171 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>34</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.ContratoEmpleado.FK_ContratoEmpleado_Contrato</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>32</OID>
+              <HolderModel>31</HolderModel>
+              <Port>35</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>-155 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>35</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>36</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>2560 px</X>
+              <Y>340 px</Y>
+            </Location>
+            <Size>
+              <Width>258 px</Width>
+              <Height>144 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.DetalleArticuloPropuesta</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>37</OID>
+              <Comment>38</Comment>
+              <OutModel>36</OutModel>
+              <InModel>2</InModel>
+              <OutPort>39</OutPort>
+              <InPort>40</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>152 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>39</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>92 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>40</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.DetalleArticuloPropuesta.FK_DetalleArticuloPropuesta_Articulo</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>38</OID>
+              <HolderModel>37</HolderModel>
+              <Port>41</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>0 px</X>
+                  <Y>-153 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>41</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>42</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>2170 px</X>
+              <Y>1210 px</Y>
+            </Location>
+            <Size>
+              <Width>234 px</Width>
+              <Height>144 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.DetalleComprobante</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>43</OID>
+              <Comment>44</Comment>
+              <OutModel>42</OutModel>
+              <InModel>2</InModel>
+              <OutPort>45</OutPort>
+              <InPort>46</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>116.727272727273 px</X>
+                  <Y>Undefined</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>45</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>40.0000452995309 px</X>
+                  <Y>84.2857291747115 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>46</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>2286.72727272727 px</X>
+                <Y>1020 px</Y>
+              </PointD>
+              <PointD>
+                <X>2660.00004529953 px</X>
+                <Y>1020 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>true</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.DetalleComprobante.FK_DetalleComprobante_Articulo</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>44</OID>
+              <HolderModel>43</HolderModel>
+              <Port>47</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>-186.636496803977 px</X>
+                  <Y>190 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>47</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>48</OID>
+              <Comment>49</Comment>
+              <OutModel>42</OutModel>
+              <InModel>18</InModel>
+              <OutPort>50</OutPort>
+              <InPort>51</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>117 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>50</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>215.714308291066 px</X>
+                  <Y>95.7143094831588 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>51</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>1556 px</X>
+                <Y>1327 px</Y>
+              </PointD>
+              <PointD>
+                <X>1556 px</X>
+                <Y>1395.71430948316 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>true</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.DetalleComprobante.FK_DetalleComprobante_Comprobante</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>49</OID>
+              <HolderModel>48</HolderModel>
+              <Port>52</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>307 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>52</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>53</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1620 px</X>
+              <Y>1360 px</Y>
+            </Location>
+            <Size>
+              <Width>290 px</Width>
+              <Height>110 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.DetalleComprobanteTipoPago</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>54</OID>
+              <Comment>55</Comment>
+              <OutModel>53</OutModel>
+              <InModel>18</InModel>
+              <OutPort>56</OutPort>
+              <InPort>57</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>82.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>56</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>142.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>57</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.DetalleComprobanteTipoPago.FK_DetalleComprobanteTipoPago_Comprobante</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>55</OID>
+              <HolderModel>54</HolderModel>
+              <Port>58</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>146 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>58</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>59</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>880 px</X>
+              <Y>1130 px</Y>
+            </Location>
+            <Size>
+              <Width>177 px</Width>
+              <Height>144 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Empleado</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>60</OID>
+              <Comment>61</Comment>
+              <OutModel>59</OutModel>
+              <InModel>9</InModel>
+              <OutPort>62</OutPort>
+              <InPort>63</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>15 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>62</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>75 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>63</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Empleado.FK_Empleado_Cargo</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>61</OID>
+              <HolderModel>60</HolderModel>
+              <Port>64</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>-41.5 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>64</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>65</OID>
+              <Comment>66</Comment>
+              <OutModel>19</OutModel>
+              <InModel>59</InModel>
+              <OutPort>67</OutPort>
+              <InPort>68</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>7.14288996190498 px</X>
+                  <Y>195.714305566282 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>67</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>Undefined</X>
+                  <Y>113.333366270419 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>68</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>1900 px</X>
+                <Y>1165.71430556628 px</Y>
+              </PointD>
+              <PointD>
+                <X>1900 px</X>
+                <Y>1240 px</Y>
+              </PointD>
+              <PointD>
+                <X>1070.171875 px</X>
+                <Y>1240 px</Y>
+              </PointD>
+              <PointD>
+                <X>1070.171875 px</X>
+                <Y>1243.33336627042 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>true</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Contrato.FK_Contrato_Empleado</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>66</OID>
+              <HolderModel>65</HolderModel>
+              <Port>69</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>434.9140625 px</X>
+                  <Y>-74.2856944337179 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>69</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>70</OID>
+              <Comment>71</Comment>
+              <OutModel>30</OutModel>
+              <InModel>59</InModel>
+              <OutPort>72</OutPort>
+              <InPort>73</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>61.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>72</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>175.714303692993 px</X>
+                  <Y>51.4285915481805 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>73</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>1370 px</X>
+                <Y>1161.5 px</Y>
+              </PointD>
+              <PointD>
+                <X>1370 px</X>
+                <Y>1175.5 px</Y>
+              </PointD>
+              <PointD>
+                <X>1077 px</X>
+                <Y>1175.5 px</Y>
+              </PointD>
+              <PointD>
+                <X>1077 px</X>
+                <Y>1181.42859154818 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.ContratoEmpleado.FK_ContratoEmpleado_Empleado</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>71</OID>
+              <HolderModel>70</HolderModel>
+              <Port>74</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>166.5 px</X>
+                  <Y>-14 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>74</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>75</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>3000 px</X>
+              <Y>720 px</Y>
+            </Location>
+            <Size>
+              <Width>250 px</Width>
+              <Height>110 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.InventarioMateriaPrima</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>76</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>2280 px</X>
+              <Y>530 px</Y>
+            </Location>
+            <Size>
+              <Width>224 px</Width>
+              <Height>110 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.InventarioProducto</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>77</OID>
+              <Comment>78</Comment>
+              <OutModel>76</OutModel>
+              <InModel>2</InModel>
+              <OutPort>79</OutPort>
+              <InPort>80</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>112 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>79</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>55 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>80</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>2392 px</X>
+                <Y>660 px</Y>
+              </PointD>
+              <PointD>
+                <X>2600 px</X>
+                <Y>660 px</Y>
+              </PointD>
+              <PointD>
+                <X>2600 px</X>
+                <Y>845 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.InventarioProducto.FK_InventarioProducto_Articulo</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>78</OID>
+              <HolderModel>77</HolderModel>
+              <Port>81</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>-104 px</X>
+                  <Y>-20 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>81</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>82</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>2880 px</X>
+              <Y>920 px</Y>
+            </Location>
+            <Size>
+              <Width>246 px</Width>
+              <Height>93 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.MateriaPrima</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>83</OID>
+              <Comment>84</Comment>
+              <OutModel>82</OutModel>
+              <InModel>11</InModel>
+              <OutPort>85</OutPort>
+              <InPort>86</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>46.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>85</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>94 px</X>
+                  <Y>Undefined</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>86</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>3174 px</X>
+                <Y>966.5 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>true</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.MateriaPrima.FK_CategoriaMateriaPrima_MateriaPrima</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>84</OID>
+              <HolderModel>83</HolderModel>
+              <Port>87</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>-48 px</X>
+                  <Y>-56.75 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>87</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>88</OID>
+              <Comment>89</Comment>
+              <OutModel>3</OutModel>
+              <InModel>82</InModel>
+              <OutPort>90</OutPort>
+              <InPort>91</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>174.75 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>90</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>46.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>91</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>2784.75 px</X>
+                <Y>966.5 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.ArticuloMateriaPrima.FK_ArticuloMateriaPrima_MateriaPrima</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>89</OID>
+              <HolderModel>88</HolderModel>
+              <Port>92</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>0 px</X>
+                  <Y>66.75 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>92</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>93</OID>
+              <Comment>94</Comment>
+              <OutModel>75</OutModel>
+              <InModel>82</InModel>
+              <OutPort>95</OutPort>
+              <InPort>96</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>63 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>95</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>183 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>96</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.InventarioMateriaPrima.FK_InventarioMateriaPrima_MateriaPrima</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>94</OID>
+              <HolderModel>93</HolderModel>
+              <Port>97</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>0 px</X>
+                  <Y>-45 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>97</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>98</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1340 px</X>
+              <Y>940 px</Y>
+            </Location>
+            <Size>
+              <Width>170 px</Width>
+              <Height>110 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Pagos</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>99</OID>
+              <Comment>100</Comment>
+              <OutModel>98</OutModel>
+              <InModel>59</InModel>
+              <OutPort>101</OutPort>
+              <InPort>102</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>55 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>101</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>88.5 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>102</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>968.5 px</X>
+                <Y>995 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Pagos.FK_Pagos_Empleado</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>100</OID>
+              <HolderModel>99</HolderModel>
+              <Port>103</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>185.75 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>103</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>104</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>390 px</X>
+              <Y>1000 px</Y>
+            </Location>
+            <Size>
+              <Width>161 px</Width>
+              <Height>127 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Persona</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>105</OID>
+              <Comment>106</Comment>
+              <OutModel>12</OutModel>
+              <InModel>104</InModel>
+              <OutPort>107</OutPort>
+              <InPort>108</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>41.5 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>107</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>63.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>108</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>685.5 px</X>
+                <Y>894 px</Y>
+              </PointD>
+              <PointD>
+                <X>571 px</X>
+                <Y>894 px</Y>
+              </PointD>
+              <PointD>
+                <X>571 px</X>
+                <Y>1063.5 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Cliente.FK_Cliente_Persona</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>106</OID>
+              <HolderModel>105</HolderModel>
+              <Port>109</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>114.5 px</X>
+                  <Y>-104.75 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>109</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>110</OID>
+              <Comment>111</Comment>
+              <OutModel>59</OutModel>
+              <InModel>104</InModel>
+              <OutPort>112</OutPort>
+              <InPort>113</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>72 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>112</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>80.5 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>113</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>470.5 px</X>
+                <Y>1202 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Empleado.FK_Empleado_Persona</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>111</OID>
+              <HolderModel>110</HolderModel>
+              <Port>114</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>204.75 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>114</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>115</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>250 px</X>
+              <Y>780 px</Y>
+            </Location>
+            <Size>
+              <Width>191 px</Width>
+              <Height>93 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.PersonaJuridica</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>116</OID>
+              <Comment>117</Comment>
+              <OutModel>115</OutModel>
+              <InModel>104</InModel>
+              <OutPort>118</OutPort>
+              <InPort>119</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>165.5 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>118</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>25.5 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>119</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.PersonaJuridica.FK_PersonaJuridica_Persona</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>117</OID>
+              <HolderModel>116</HolderModel>
+              <Port>120</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>0 px</X>
+                  <Y>-63.5 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>120</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>121</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>120 px</X>
+              <Y>990 px</Y>
+            </Location>
+            <Size>
+              <Width>201 px</Width>
+              <Height>144 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.PersonaNatural</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>122</OID>
+              <Comment>123</Comment>
+              <OutModel>121</OutModel>
+              <InModel>104</InModel>
+              <OutPort>124</OutPort>
+              <InPort>125</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>73.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>124</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>63.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>125</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.PersonaNatural.FK_PersonaNatural_Persona</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>123</OID>
+              <HolderModel>122</HolderModel>
+              <Port>126</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>-34.5 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>126</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>127</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1170 px</X>
+              <Y>440 px</Y>
+            </Location>
+            <Size>
+              <Width>171 px</Width>
+              <Height>127 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Propuesta</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>128</OID>
+              <Comment>129</Comment>
+              <OutModel>19</OutModel>
+              <InModel>127</InModel>
+              <OutPort>130</OutPort>
+              <InPort>131</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>154.28574961059 px</X>
+                  <Y>7.14287378350116 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>130</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>128.25 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>131</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>2074.28564453125 px</X>
+                <Y>587 px</Y>
+              </PointD>
+              <PointD>
+                <X>1298.25 px</X>
+                <Y>587 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Contrato.FK_Contrato_Propuesta</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>129</OID>
+              <HolderModel>128</HolderModel>
+              <Port>132</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>388.017927344965 px</X>
+                  <Y>383 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>132</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>133</OID>
+              <Comment>134</Comment>
+              <OutModel>36</OutModel>
+              <InModel>127</InModel>
+              <OutPort>135</OutPort>
+              <InPort>136</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>122 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>135</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>22 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>136</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.DetalleArticuloPropuesta.FK_DetalleArticuloPropuesta_Propuesta</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>134</OID>
+              <HolderModel>133</HolderModel>
+              <Port>137</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>609.5 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>137</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>138</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>2320 px</X>
+              <Y>170 px</Y>
+            </Location>
+            <Size>
+              <Width>193 px</Width>
+              <Height>93 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Proveedor</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>139</OID>
+              <Comment>140</Comment>
+              <OutModel>138</OutModel>
+              <InModel>104</InModel>
+              <OutPort>141</OutPort>
+              <InPort>142</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>46.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>141</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>80.5 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>142</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>470.5 px</X>
+                <Y>216.5 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Proveedor.FK_Proveedor_Persona</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>140</OID>
+              <HolderModel>139</HolderModel>
+              <Port>143</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>924.75 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>143</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>144</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>2890 px</X>
+              <Y>510 px</Y>
+            </Location>
+            <Size>
+              <Width>251 px</Width>
+              <Height>161 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.ProveedorMateriaPrima</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>145</OID>
+              <Comment>146</Comment>
+              <OutModel>144</OutModel>
+              <InModel>82</InModel>
+              <OutPort>147</OutPort>
+              <InPort>148</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>28.88896621304 px</X>
+                  <Y>Undefined</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>147</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>122.715909090909 px</X>
+                  <Y>Undefined</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>148</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>2918.88896621304 px</X>
+                <Y>759 px</Y>
+              </PointD>
+              <PointD>
+                <X>2920 px</X>
+                <Y>759 px</Y>
+              </PointD>
+              <PointD>
+                <X>2920 px</X>
+                <Y>879.75 px</Y>
+              </PointD>
+              <PointD>
+                <X>3002.71590909091 px</X>
+                <Y>879.75 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>true</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.ProveedorMateriaPrima.FK_ProveedorMateriaPrima_MateriaPrima</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>146</OID>
+              <HolderModel>145</HolderModel>
+              <Port>149</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>-1.11103378695998 px</X>
+                  <Y>-148.375 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>149</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>150</OID>
+              <Comment>151</Comment>
+              <OutModel>144</OutModel>
+              <InModel>138</InModel>
+              <OutPort>152</OutPort>
+              <InPort>153</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>80.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>152</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>96.5 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>153</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>2870 px</X>
+                <Y>590.5 px</Y>
+              </PointD>
+              <PointD>
+                <X>2870 px</X>
+                <Y>283 px</Y>
+              </PointD>
+              <PointD>
+                <X>2416.5 px</X>
+                <Y>283 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.ProveedorMateriaPrima.FK_ProveedorMateriaPrima_Proveedor</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>151</OID>
+              <HolderModel>150</HolderModel>
+              <Port>154</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>246.75 px</X>
+                  <Y>307.5 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>154</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>155</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>871 px</X>
+              <Y>764 px</Y>
+            </Location>
+            <Size>
+              <Width>175 px</Width>
+              <Height>127 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Solicitud</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>156</OID>
+              <Comment>157</Comment>
+              <OutModel>155</OutModel>
+              <InModel>12</InModel>
+              <OutPort>158</OutPort>
+              <InPort>159</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>63.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>158</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>46.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>159</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Solicitud.FK_Solicitud_Cliente</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>157</OID>
+              <HolderModel>156</HolderModel>
+              <Port>160</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>30.5 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>160</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>161</OID>
+              <Comment>162</Comment>
+              <OutModel>155</OutModel>
+              <InModel>59</InModel>
+              <OutPort>163</OutPort>
+              <InPort>164</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>71.8571589139045 px</X>
+                  <Y>106.000014816012 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>163</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>61.4285874610048 px</X>
+                  <Y>1.92437855730532E-05 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>164</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>942.857158913905 px</X>
+                <Y>911 px</Y>
+              </PointD>
+              <PointD>
+                <X>941.428587461005 px</X>
+                <Y>911 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Solicitud.FK_Solicitud_Empleado</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>162</OID>
+              <HolderModel>161</HolderModel>
+              <Port>165</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>1.42857004671703 px</X>
+                  <Y>-129.5 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>165</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>166</OID>
+              <Comment>167</Comment>
+              <OutModel>127</OutModel>
+              <InModel>155</InModel>
+              <OutPort>168</OutPort>
+              <InPort>169</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>42.75 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>168</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>63.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>169</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>1212.75 px</X>
+                <Y>604.5 px</Y>
+              </PointD>
+              <PointD>
+                <X>1240.75 px</X>
+                <Y>604.5 px</Y>
+              </PointD>
+              <PointD>
+                <X>1240.75 px</X>
+                <Y>801 px</Y>
+              </PointD>
+              <PointD>
+                <X>1066 px</X>
+                <Y>801 px</Y>
+              </PointD>
+              <PointD>
+                <X>1066 px</X>
+                <Y>827.5 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Propuesta.FK_Propuesta_Solicitud</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>167</OID>
+              <HolderModel>166</HolderModel>
+              <Port>170</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>-28 px</X>
+                  <Y>-135.75 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>170</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>171</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1110 px</X>
+              <Y>820 px</Y>
+            </Location>
+            <Size>
+              <Width>206 px</Width>
+              <Height>93 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.SolicitudServicio</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>172</OID>
+              <Comment>173</Comment>
+              <OutModel>171</OutModel>
+              <InModel>155</InModel>
+              <OutPort>174</OutPort>
+              <InPort>175</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>35.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>174</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>91.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>175</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.SolicitudServicio.FK_SolicitudServicio_Solicitud</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>173</OID>
+              <HolderModel>172</HolderModel>
+              <Port>176</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>32 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>176</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>177</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>370 px</X>
+              <Y>1210 px</Y>
+            </Location>
+            <Size>
+              <Width>197 px</Width>
+              <Height>90 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Telefono</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>178</OID>
+              <Comment>179</Comment>
+              <OutModel>104</OutModel>
+              <InModel>177</InModel>
+              <OutPort>180</OutPort>
+              <InPort>181</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>120.75 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>180</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>140.75 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>181</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Persona.FK_Persona_Telefono</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>179</OID>
+              <HolderModel>178</HolderModel>
+              <Port>182</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>0 px</X>
+                  <Y>-41.5 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>182</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>183</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>2220 px</X>
+              <Y>810 px</Y>
+            </Location>
+            <Size>
+              <Width>179 px</Width>
+              <Height>90 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.TipoArticulo</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>184</OID>
+              <Comment>185</Comment>
+              <OutModel>2</OutModel>
+              <InModel>183</InModel>
+              <OutPort>186</OutPort>
+              <InPort>187</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>87.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>186</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>67.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>187</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Articulo.FK_TipoArticulo_Articulo</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>185</OID>
+              <HolderModel>184</HolderModel>
+              <Port>188</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>110.5 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>188</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>189</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1390 px</X>
+              <Y>1460 px</Y>
+            </Location>
+            <Size>
+              <Width>215 px</Width>
+              <Height>90 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.TipoComprobante</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>190</OID>
+              <Comment>191</Comment>
+              <OutModel>18</OutModel>
+              <InModel>189</InModel>
+              <OutPort>192</OutPort>
+              <InPort>193</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>186 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>192</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>26 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>193</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Comprobante.FK_Comprobante_TipoComprobante</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>191</OID>
+              <HolderModel>190</HolderModel>
+              <Port>194</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>-31 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>194</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>195</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1570 px</X>
+              <Y>950 px</Y>
+            </Location>
+            <Size>
+              <Width>186 px</Width>
+              <Height>90 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.TipoContrato</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>196</OID>
+              <Comment>197</Comment>
+              <OutModel>19</OutModel>
+              <InModel>195</InModel>
+              <OutPort>198</OutPort>
+              <InPort>199</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>35 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>198</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>55 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>199</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Contrato.FK_Contrato_TipoContrato</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>197</OID>
+              <HolderModel>196</HolderModel>
+              <Port>200</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>82 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>200</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>201</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>2040 px</X>
+              <Y>1370 px</Y>
+            </Location>
+            <Size>
+              <Width>163 px</Width>
+              <Height>90 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.TipoPago</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>202</OID>
+              <Comment>203</Comment>
+              <OutModel>53</OutModel>
+              <InModel>201</InModel>
+              <OutPort>204</OutPort>
+              <InPort>205</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>55 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>204</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>45 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>205</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.DetalleComprobanteTipoPago.FK_DetalleComprobanteTipoPago_TipoPago</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>203</OID>
+              <HolderModel>202</HolderModel>
+              <Port>206</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>-65 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>206</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>207</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>2910 px</X>
+              <Y>330 px</Y>
+            </Location>
+            <Size>
+              <Width>191 px</Width>
+              <Height>90 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.tipoProveedor</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>208</OID>
+              <Comment>209</Comment>
+              <OutModel>138</OutModel>
+              <InModel>207</InModel>
+              <OutPort>210</OutPort>
+              <InPort>211</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>46.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>210</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>95.5 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>211</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>3005.5 px</X>
+                <Y>216.5 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.Proveedor.FK_Proveedor_TipoProveedor</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>209</OID>
+              <HolderModel>208</HolderModel>
+              <Port>212</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>-246.25 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>212</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>213</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1050 px</X>
+              <Y>620 px</Y>
+            </Location>
+            <Size>
+              <Width>180 px</Width>
+              <Height>90 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.TipoServicio</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>214</OID>
+              <Comment>215</Comment>
+              <OutModel>171</OutModel>
+              <InModel>213</InModel>
+              <OutPort>216</OutPort>
+              <InPort>217</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>60 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>216</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>120 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>217</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.SolicitudServicio.FK_SolicitudServicio_TipoServicio</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>215</OID>
+              <HolderModel>214</HolderModel>
+              <Port>218</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>0 px</X>
+                  <Y>55 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>218</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>219</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>670 px</X>
+              <Y>290 px</Y>
+            </Location>
+            <Size>
+              <Width>204 px</Width>
+              <Height>144 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.tAuditoriaArticulo</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>220</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>680 px</X>
+              <Y>490 px</Y>
+            </Location>
+            <Size>
+              <Width>192 px</Width>
+              <Height>161 px</Height>
+            </Size>
+            <DbOid>
+              <Path>CORAZON_MARIA_UPDATE_FINAL.dbo.tAuditoriaPagos</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+        </Children>
+        <ViewPort>
+          <ScaleMode>Free</ScaleMode>
+          <Scale>0.5</Scale>
+          <Location>
+            <X>-446 px</X>
+            <Y>-250 px</Y>
+          </Location>
+        </ViewPort>
+      </Model>
+    </DiagramModel>
+  </Diagram>
+</DevartDatabaseDiagram>

@@ -1,0 +1,97 @@
+vale yo tengo las siguientes tablas con sus respectivas columnas y logica de relacion como se muestra 
+ 
+PersonaJuridica:idPersJuridica,razonSocial,ruc,idCliente  
+porque:esta tabla se utiliza para almacenar representantes de empresas que tengan ruc como clientes o proveedores 
+relacion:Se relaciona con cliente siendo que una persona juridica puede ser de 0 a mas clientes, tambien se relaciona con 
+proveedor por que podriamos tener proveedores que sean empresas entonces siendo su relacion de 1 persona juridica puede ser de 0 a mas proveedores.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+PersonaNatural: idPersFisica, nombre, apPat, apMat,dni,idCliente
+porque: esta tabla se utiliza para almacenar las demas personas que no sean personas juridicas es decir que tienen dni 
+relacion: se relaciona con la tabla cliente siendo que siendo que una persona natural puede ser de 0 a mas clientes, tambien se relaciona con 
+proveedor por que podriamos tener proveedores que no sean empresas entonces siendo su relacion de 1 persona juridica puede ser de 0 a mas proveedores.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+cliente:idCliente,direccion, telefono,email,idcategoria
+porque: esta tabla se utiliza para relacionar datos asi como guardar
+relacion: se relacion con la categoria siendo que 1 categoria lo puede tener de 0 a mas clientes asi mismo tambien se relaciona con solicitud siendo que un cliente
+puede realizar de 0 a mas solicitudes, asi mismo se relaciona con cliente tipo de documento donde un cliente puede tener de 0 a mas tipo de documentos como documentos 
+extranjeria como pasaporte etc.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+clienteTipoDoc:idcliente,iddocumento,numerodoc
+porque: esta tabla relaciona a cliente con documento
+relacion: se relaciona con la tabla documento siendo que 1 documento puede ser de 0 a mas tipo de documentos de clientes
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+documento:iddocumento, tipo
+porque: esta tabla guarda los tipos de documentos que existen como dni en peru, carnet de extranjeria, etc.
+relacion: se relaciona con cliente tipo doc siendo que 1 documento puede ser de 0 a mas tipo de documentos de clientes
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+solicitud: idsolicitud,tiposervicio,fecha,hora,idcliente,descripcion,idpropuesta,estado
+porque: esta tabla almacena informacion de la solicitud que realizan los clientes
+relacion:se relaciona con secretaria siendo que una secretaria va a revisar las solicitudes siendo que 1 secretaria puede revisar de 0 a mas solicitudes
+asi mismo se relaciona con propuesta siendo que a una solicitud le corresponde de 0 a mas propuestas, tambien se relaciona con contrato siendo que 
+1 solicitud puede generar de 0 a mas contratos.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+secretaria: idsecretaria,idpersona
+porque: esta tabla relaciona a idsecretaria con la tabla persona con el fin de diferenciar que persona que pertenece a la organizacion es una secretaria
+relacion: se relaciona con solicitud siendo mencionada su relacion anteriormente de 1 secretaria a 0 o mas solicitudes.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+propuesta:idpropuesta,fecha,hora,costo,idsolicitud
+porque: esta tabla almacena las propuestas que se le hacen al cliente por ejemplo de que tipo de tela o material quiere lo que requiere su servicio
+relacion: se relaciona con solicitud siendo una solicitud perteneciente de 0 a varias propuestas.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+contrato: idcontrato,idcliente,fechayHora,precioestimado,tiemporealizar,estado,idtipocontrato(con el fin de distinguir si es contrato
+por cantidad o por minoria),direccionDestino(con el fin de realizar envios).
+porque: esta tabla almacena datos muy importantes con los que se realizara el servicio
+relacion: el contrato se relaciona con comprobante siendo qeu un contrato puede generar de 0 a mas comprobantes como boletas o 
+facturas cuando la empresa sea parte de sunat, asi mismo, se relaciona con servicio siendo que por 1 contrato podemos realizar de 0 
+a mas servicios ya que los servicios que brindamos son confeccion de ropa y tambien orfebreria claro ambos personalizados,tambien 
+se relaciona con tipo de contrato siendo que  1 tipo de contrato es para 0 a mas contratos.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+tipocontrato: idTipoContrato, nombre
+porque: esta tabla almacena los nombres de tipo de contrato es decir queremos diferenciar que sea un contrato grande de pedido por
+cantidad que es mas formal y posiblemente tenga firmas y condiciones , de uno simple que podria ser como confeccionar un solo pantalon
+relacion: un tipodecontrato es de 0 a mas contratos
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+servicio: idservicio,fechayServicio,idcontrato,idadministrador
+porque: esta tabla relaciona a mas tablas con el fin de que el administrador pueda saber que servicio se relaciona con quien
+relacion: un servicio se relacion con 0 a mas tipo de servicios porque contamos con los servicios de orfebreria y confeccion de ropa
+, asi mismo un administrado se relaciona con 0 a mas servicios porque los puede administrar para ver los servicios que se estan realizando.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+tiposervicio: idservicio,idadministrador,idtipoServicio,tiposervicio,estado
+porque: esta tabla almacena los nombres de los servicios que nosotros realizamos como confeccion de ropa y orfebreria
+relacion: un servicio puede tener de 0 a mas tipo de servicios
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+anulacion: idanulacion,fecha,hora,montodscto,idpedido,idadmin
+porque: esta tabla sirve para anular un contrato si el cliente declina asi mismo se le cobrara un porcentaje etc esto lo realiza un administrador
+relacion: un contrato puede tener de 0 a mas anulacion asi mismo un administrador puede realizar de 0 a mas anulaciones.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+administrador: idadministrador, idpersona
+porque: esta tabla sirve para relacionar que persona es administrador
+relacion: un trabajador puede ser de 0 a mas administradores porque podemos nombre a un administrador perteneciente a la empresa a que sea administrador, asi
+mismo un administrador puede administrar de 0 a mas servicios.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+proveedor: idproveedor,nombre,apPat,apMat,direccion,ruc,email,telefono
+porque: esta tabla almacena datos del tipo de proveedor que tenemos ya sea juridico o natural.
+relacion: un proveedor esta libre aun no tiene relacion especificada
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+persona: idpersona,nombre,apPat,apMat,dni,celular,eMail,direccion
+porque: esta clase almacena las persona que son parte de la empresa
+relacion: una persona puede ser de 0 a mas trabajadores
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+trabajador: idtrabajador,idpersona,idtipotrabajador,fechainicio,fechabaja
+porque: esta tabla relaciona cual de las persona de la empresa es trabajador.
+relacion: un trabajador es de 0 a mas administradores, un trabajador es de 0 a mas 
+almaceneros, asi mismo 1 trabajador esta relacionada con tipodetrabajo con el fin de identificar a 
+trabajadores como orfebres o costureros.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+tipotrabajador:idtipotrabajador,descripcion
+porque: esta tabla almacena los tipos de trabajadores como orfebres y costureros.
+relacion: un trabajador puede ser de 0 a mas tipodetrabajadores.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+asi mismo tenemos tablas sueltas porque aun falta controlar el pago ,y el control de inventario, y creo que faltaria ver que otras tablas se pueden agregar siguiendo la logica , dime que otras tablas podria agregar para controlar el inventario asi mismo para los pagos que realizaran los cliente dime las columnas , el porque,y la relacion , asi mismo analiza para que tenga sentido todo y si tiene sugerencias puedes aplicarlas sin mas .
+
+
+
+
+
+
+

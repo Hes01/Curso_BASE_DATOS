@@ -1,0 +1,76 @@
+°Formulario para empresa de confección de prendas de vestir° 
+
+Clientes y Ventas:
+a. ¿Cómo se registran los datos de los clientes?
+	en un excel 
+b. ¿Qué información importante se recopila de los clientes?
+	nombres,correo,telefono,direccion,cargo de ocupacion de cliente : parroco obispo ,diacono
+c. ¿Qué métodos de pago utilizan los clientes (Plin, Yape, BCP, Interbank, BVA Continental, etc.)?
+	transferencia:para todos los bancos,yape:poca cantidad, con mas frecuencia efectivo y yape
+d. ¿Cómo se generan y almacenan las facturas o boletas?
+	no se generan facturas, solo boletas simples porque aun no es una empresa registrada por sunat 
+e. ¿Existen descuentos, promociones o programas de fidelización para los clientes?
+	si un cliente nos hace una compra mayor a 2k soles le regalamos una prenda mas, estolas o orfebreria de acuerdo a las preferencias del cliente o se le descuente en ciertos productos
+	en su siguiente compra
+Producción:
+
+la produccion de prendas 
+
+a. ¿Cómo se controla el proceso de confección de las vestimentas para sacerdotes?
+	se coloca en un excel por dias en las prendas que se elaboran y cuandas prendas se elaboran y venden en un mes
+b. ¿Cuáles son los roles de las costureras en el proceso de producción?
+	todas hacen desde inicio hasta el final cada una de ellas
+c. ¿Se lleva un registro de los materiales utilizados en la confección?
+	registro de materiales no se hace aunque se deberia
+d. ¿Cómo se gestionan los talleres de bordados, estampados y orfebrería?
+	el diseño es externo,y es personalizado, no son socios, la empresa solo busca el servicio de otras para realizar este tipo de acabados
+Diseño y Servicios Externos:
+a. ¿Cómo colabora con los diseñadores gráficos y otros servicios externos?
+	como un cliente mas para ellos , solo vamos y les pedimos el servicio pero esperamos tener nuestras propias maquinas.
+b. ¿Se realizan compras recurrentes de materiales y servicios a proveedores externos?
+	estas compras se realizan cada 4 veces a la semana, los servicios a proveedores externos se realiza siempre porque no tenemos socios aun ,aunque esperamos importar prendas de 
+	china tanto para vender como para nuestro consumo .
+c. ¿Qué datos importantes se deben registrar en relación a estos servicios?
+	archivos de bordados como las imegenes de lo que ya hicimos, costos,insumos,registro de prendas, para poder tener ciertas estadisticas de ganancias
+Envíos:
+a. ¿Cómo se gestionan los envíos a nivel nacional?
+	mayormente llamamos a la agencia o mediante su pagina web , se hace el seguimiento, asi mismo se manteniene constante comunicacion con el cliente mediante wassap o llamada
+b. ¿Qué empresas se utilizan para realizar envíos?
+	con mucha frecuencia shamlon y indrive para envios locales.
+c. ¿Cómo se coordina y registra el proceso de envío?
+	todo lo registramos en un excel,y coordinamos por medio de wasap comunmente o llamada telefonica
+d. ¿Se realiza seguimiento de los envíos?
+	si
+Clientes Recurrentes:
+a. ¿Cómo se identifican y gestionan los clientes recurrentes?
+	por su nombres y las compras que realizan
+b. ¿Se registran sus preferencias y pedidos anteriores?
+	si
+c. ¿Existe un sistema de seguimiento de pedidos o solicitudes especiales?
+	mayormente los pedidos son personalizados por lo que al ser aun una microempresa joven, el seguimiento se realiza por medio de reportes que 
+	realizan los costureros ,con su avance el cual tiene fecha limite para su culminacion segun estos reportes le informamos al cliente sobre su
+	pedido, segun ello vamos avanzando.
+Inventario y Materiales:
+a. ¿Cómo se gestiona el inventario de telas y otros materiales?
+	en excel, en un libro asi mismo estos materiales los compramos por temporada antes de que llegue los meses donde se pone caro todo.
+Personal:
+a. ¿Cómo se registran los datos del personal interno y externo?
+	en excel
+b. ¿Cuáles son los roles y responsabilidades de cada empleado o colaborador?
+	finalizar el trabajo encargado, y entregar el mismo al tiempo indicado.
+Seguridad de Datos:
+a. ¿Qué medidas de seguridad se implementan para proteger la información de la empresa?
+	como no contamos con una data aun no las tomamos en cuenta.
+Requisitos Legales:
+
+a. ¿Cumple con requisitos legales y regulaciones para su tipo de negocio?
+	ningun,no pagamos impuestos aun, pero estamos en tramites de convertirnos en una empresa registrada en sunat como tal.
+b. ¿Es necesario mantener registros específicos para cumplir con estas regulaciones?
+	si, me gustaria guardar por ejemplo los impuestos que pago etc.
+Necesidades Futuras:
+a. ¿Tienen planes de expansión o nuevas áreas de negocio?
+	si, expandirnos a distritos de lima o a provincias
+b. ¿Qué datos adicionales podrían ser necesarios para el futuro?
+	datos como costo de envios para otro pais , porque si es cierto que una vez hicimos un envio para eeuu y el cliente llevo su producto , no sabemos 
+	como funcionan estos envios o si existe un cobro adicional para este, y esos pequeños costos nos gustaria guardar para tener referencias, asi como las agencias de donde 
+	 enviamos sus telefonos etc.
